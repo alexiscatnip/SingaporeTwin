@@ -1124,6 +1124,157 @@ MonoBehaviour:
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1001 &743579407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7752603225714643752, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225714643755, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_text
+      value: 'This scene is configured for the Oculus Quest 2. Follow the instructions
+        below to build this scene appropriately.
+
+
+        1. In the menu, go to
+        <b>File > Build Settings</b>, and change the platform to Android.
+
+
+        2.
+        In the same Build Settings window, click the "Add Open Scenes" button, and
+        uncheck the box next to the "01_CesiumWorld" scene.
+
+
+        3. Go to <b>Edit
+        > Project</b> Settings, and in the list on the left, scroll down and click
+        on "XR Plug-In Management".
+
+
+        4. Go to the "Android" section and
+        check the box next to "OpenXR".
+
+
+        5. Finally, in the Build Settings,
+        click "Build and Run" to build an APK. This can then be played from the Quest
+        2.
+
+
+        Press "1" in the editor to return to this view.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtPosition.x
+      value: 1014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtPosition.y
+      value: -600
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtPosition.z
+      value: -624.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtRotation.x
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829094, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: _lookAtRotation.y
+      value: 278.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829112, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Getting Started
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -628.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -621.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.75254464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6585412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -82.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752603225896829113, guid: d1f6fb4b452d026489986bf620a2d8bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1f6fb4b452d026489986bf620a2d8bc, type: 3}
 --- !u!1 &963893092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &963893093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2344,6 +2495,59 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _WindowColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1 &1121214758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121214760}
+  - component: {fileID: 1121214759}
+  m_Layer: 0
+  m_Name: CesiumGeoreference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1121214759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121214758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1305e05d46db92498ce698a4c366a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _originAuthority: 0
+  _latitude: 1.2878
+  _longitude: 103.8666
+  _height: 2250
+  _ecefX: -1528753.503422618
+  _ecefY: 6192885.126696987
+  _ecefZ: 142436.37141419473
+--- !u!4 &1121214760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121214758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1860266902}
+  - {fileID: 2085920325}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1142654404
 Material:
   serializedVersion: 8
@@ -2466,7 +2670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1179297433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2500,6 +2704,92 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1860266901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1860266902}
+  - component: {fileID: 1860266904}
+  - component: {fileID: 1860266903}
+  m_Layer: 0
+  m_Name: Cesium World Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1860266902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860266901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1121214760}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860266903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860266901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bca0907bd759be4e8b4d7ca5f84131c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showCreditsOnScreen: 0
+  _maximumScreenSpaceError: 2
+  _maximumTextureSize: 2048
+  _maximumSimultaneousTileLoads: 20
+  _subTileCacheBytes: 16777216
+  _ionAssetID: 2
+  _ionAccessToken: 
+--- !u!114 &1860266904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860266901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844ac86b07dcfa3468f56da55d787510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showCreditsOnScreen: 0
+  _tilesetSource: 0
+  _url: 
+  _ionAssetID: 1
+  _ionAccessToken: 
+  _maximumScreenSpaceError: 16
+  _preloadAncestors: 1
+  _preloadSiblings: 1
+  _forbidHoles: 0
+  _maximumSimultaneousTileLoads: 20
+  _maximumCachedBytes: 268435456
+  _loadingDescendantLimit: 20
+  _enableFrustumCulling: 1
+  _enableFogCulling: 1
+  _enforceCulledScreenSpaceError: 0
+  _culledScreenSpaceError: 64
+  _opaqueMaterial: {fileID: 0}
+  _suspendUpdate: 0
+  _showTilesInHierarchy: 0
+  _updateInEditor: 1
+  _logSelectionStats: 0
+  _createPhysicsMeshes: 1
 --- !u!1 &2019652636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2649,6 +2939,85 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+--- !u!1 &2085920324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085920325}
+  - component: {fileID: 2085920327}
+  - component: {fileID: 2085920326}
+  m_Layer: 0
+  m_Name: Singapore onemap 3d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085920325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085920324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1121214760}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085920326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085920324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1942b8938da484cab4fe52e17a3cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2085920327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085920324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844ac86b07dcfa3468f56da55d787510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showCreditsOnScreen: 0
+  _tilesetSource: 1
+  _url: https://www.onemap3d.gov.sg/cesium/static/Data/sg_noterrain_tiles/tileset.json
+  _ionAssetID: 354307
+  _ionAccessToken: 
+  _maximumScreenSpaceError: 12
+  _preloadAncestors: 1
+  _preloadSiblings: 1
+  _forbidHoles: 0
+  _maximumSimultaneousTileLoads: 5
+  _maximumCachedBytes: 536870912
+  _loadingDescendantLimit: 20
+  _enableFrustumCulling: 1
+  _enableFogCulling: 1
+  _enforceCulledScreenSpaceError: 1
+  _culledScreenSpaceError: 64
+  _opaqueMaterial: {fileID: 2100000, guid: d2032d88bf6556a459f397ec48ec5573, type: 2}
+  _suspendUpdate: 0
+  _showTilesInHierarchy: 0
+  _updateInEditor: 1
+  _logSelectionStats: 0
+  _createPhysicsMeshes: 1
 --- !u!1001 &3556995631261867238
 PrefabInstance:
   m_ObjectHideFlags: 0
