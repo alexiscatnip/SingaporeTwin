@@ -300,7 +300,7 @@ MonoBehaviour:
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   - {fileID: -944628639613478452, guid: da2b439d1a2de5c46a4f428f8cf4fe19, type: 3}
---- !u!1001 &784340011
+--- !u!1001 &1372024967
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -309,8 +309,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
       propertyPath: m_MaximumScale
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -337,6 +342,17 @@ PrefabInstance:
       propertyPath: m_EnableFreeZMovement
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3127728407712097236, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RightHandTurnAction.m_Reference
+      value: 
+      objectReference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 3127728407712097236, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LeftHandTurnAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3127728407712097238, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_EnableFly
@@ -347,14 +363,34 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3127728407712097242, guid: 895f6f3c2d334633b5800312285058d2,
+    - target: {fileID: 3127728407712097239, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127728407712097240, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127728407712097240, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RightHandSnapTurnAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414492871629994245, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3414492871629994245, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_EnableFreeXMovement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414492871629994245, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_EnableFreeYMovement
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3414492871629994245, guid: 895f6f3c2d334633b5800312285058d2,
@@ -419,6 +455,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5045211221932542186, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045211221932542186, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
       propertyPath: m_EnableFreeXMovement
       value: 0
       objectReference: {fileID: 0}
@@ -427,25 +468,10 @@ PrefabInstance:
       propertyPath: m_EnableFreeZMovement
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6454594071094758631, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Name
       value: Complete XR Origin Set Up
-      objectReference: {fileID: 0}
-    - target: {fileID: 8677371567480465662, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8745567231896401907, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: RespawnHeightThreshold
-      value: -50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
