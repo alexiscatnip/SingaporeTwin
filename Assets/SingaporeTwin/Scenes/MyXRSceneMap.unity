@@ -1806,7 +1806,7 @@ MonoBehaviour:
   _url: https://www.onemap3d.gov.sg/cesium/static/Data/sg_noterrain_tiles/tileset.json
   _ionAssetID: 354307
   _ionAccessToken: 
-  _maximumScreenSpaceError: 12
+  _maximumScreenSpaceError: 120
   _preloadAncestors: 1
   _preloadSiblings: 1
   _forbidHoles: 0
