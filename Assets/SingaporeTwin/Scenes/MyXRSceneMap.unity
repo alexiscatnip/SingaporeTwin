@@ -1781,7 +1781,7 @@ GameObject:
   - component: {fileID: 1860266904}
   - component: {fileID: 1860266905}
   m_Layer: 0
-  m_Name: Cesium World Terrain
+  m_Name: Cesium Singapore terrain flat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1819,12 +1819,12 @@ MonoBehaviour:
   _url: 
   _ionAssetID: 1
   _ionAccessToken: 
-  _maximumScreenSpaceError: 50
+  _maximumScreenSpaceError: 16
   _preloadAncestors: 1
   _preloadSiblings: 1
   _forbidHoles: 0
-  _maximumSimultaneousTileLoads: 5
-  _maximumCachedBytes: 134217728
+  _maximumSimultaneousTileLoads: 10
+  _maximumCachedBytes: 536870912
   _loadingDescendantLimit: 20
   _enableFrustumCulling: 1
   _enableFogCulling: 1
@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showCreditsOnScreen: 0
-  _maximumScreenSpaceError: 2
+  _maximumScreenSpaceError: 0.1
   _maximumTextureSize: 2048
   _maximumSimultaneousTileLoads: 20
   _subTileCacheBytes: 16777216
